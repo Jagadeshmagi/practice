@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.scroll-links img {
+	display: inline-block;
+	width: 20%;
+}
+
+/*.scroll-links img.three {
+	width: 33%;
+}*/
+
+.half {
+	display: inline-block;
+	width: 50%;
+	height: 'auto';
+	vertical-align: top;
+}
+
+.header .office, .header .casual {
+	position: absolute;
+	width: 40%;
+	top: 19%;
+	z-index: 99;
+}
+
+.header .office {
+	left: 14%;
+}
+
+.header .casual {
+	left: 49%;
+}
+
+.header .active {
+	z-index: 999;
+}
+
+.scroll-top {
+	width: 60px;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 5%;
+	z-index: 999;
+	display: block;
+}
+
+.scroll-top.active {
+	display: none;
+}
+
+
